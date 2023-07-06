@@ -1,0 +1,59 @@
+
+
+.titulo_pagamento{ /* Estilo do título da página de pagamentos*/
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #6acc6d;
+    color: white;
+    display: flex;
+    padding: 1em;
+}
+
+.caixaformulario{ /* Estilo do formulário*/
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 1cm; 
+}
+
+input{ /* estilo dos inputs de formulário*/
+    width: 10cm;
+    height: 1cm;
+    border-color: lightgray;
+    border-style:ridge;
+}
+
+
+.botao_formulario{ /* estilo do botão */
+    background-color: #4CAF50;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.pagamento{ /* div onde vai estar o formulário de pagamento*/
+     /* border: 1px black solid; */
+     margin: auto;
+     display: inline-block;
+     z-index:10;
+}
+
+.organizaPagamentos{ /* Organização (centralização, margin etc do conteúdo da págiona de pagamento)*/
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 60em;}
+
+h4{ /* estilo do p */
+    color: white;
+    padding-left:8px;
+    text-align: center;
+    padding-bottom: 8px;
+    text-decoration: none;
+}

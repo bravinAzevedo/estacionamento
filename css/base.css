@@ -1,0 +1,385 @@
+*{ /*deixar as dimensões padrões */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#menu_estacionamento form {
+    z-index:1;
+}
+
+.header-1{ /* estilo do primeiro cabeçario */
+    background-color: black;
+    height: 60px;
+}
+
+#menu_estacionamento .logo{ /* direcionar a logo ao lado das três barras  */
+    padding-left: 60px;
+}
+
+#menu_estacionamento .menu{ /* formatando a lista */
+    top: 60px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+}
+
+#menu_estacionamento a{ /* tirar a linha de baixo das listas */
+    text-decoration: none;
+   
+}
+
+body{ /* caracteres do menu  */
+    top: 60px;
+    font-family: Arial;
+    background-color: #d7dddb (216, 140, 235, 0.664) ;
+}
+
+#menu_estacionamento input[type="checkbox"]  /* efeito do menu */
+{
+    display: none;
+}
+
+#menu_estacionamento input[type="checkbox"]:checked ~ nav  /* efeito do menu */
+{
+    transform: translateX(350px);
+}
+
+#menu_estacionamento nav{ /* efeito do menu */
+    background-color: #6acc6d;
+    width: 350px;
+    left: -350px;
+    height: 400px;
+    position: absolute;
+    transition: all 0.5s;  
+    z-index:600;
+}
+
+#menu_estacionamento .menu a{ /* efeito do menu */
+    display: block;
+    padding: 20px 5px;
+    color:white;
+}
+
+#menu_estacionamento .menu a:hover{ /* efeito do menu */
+    background-color: #00A80C;
+    color: black;
+}
+
+#menu_estacionamento label{ /* efeito do menu */
+    padding: 15px;
+    position: absolute;
+    z-index: 999;
+}
+.meio{ /* posicionamento do meio da tela */
+    padding: 5%;
+    
+}
+
+footer{ /* dimensoes do rodape */
+    /*height: 100%;*/
+    background-color: black;
+    padding-top: 8px;
+
+    
+}
+p{ /* estilo do p */
+    color: rgb(109, 106, 106);
+    padding-left:8px;
+    padding-bottom: 5px;  
+    top: 5px;
+    padding-top: 5px;
+}
+
+
+
+ul.lista{ /* Alinhar elementos da lista*/
+    text-align: center;
+}
+.itens a{ /* Estilo de listas*/
+    position: relative;
+    padding-left: 8px;
+    color: white;
+}
+ul li.itens{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.redessociais{
+    text-align: center;
+}
+
+ul.lista2{
+    position: relative;
+    padding-left: 8px;
+    display:inline-block;
+    
+}
+ul li.icones{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    position: 10px;
+}
+
+#menu_estacionamento + .container { align-items: flex-start; padding-top: 30px; }*{ /*deixar as dimensões padrões */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#menu_estacionamento form {
+    z-index:1;
+}
+
+.header-1{ /* estilo do primeiro cabeçario */
+    background-color: black;
+    height: 60px;
+}
+
+#menu_estacionamento .logo{ /* direcionar a logo ao lado das três barras  */
+    padding-left: 60px;
+}
+
+#menu_estacionamento .menu{ /* formatando a lista */
+    top: 60px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+}
+
+#menu_estacionamento a{ /* tirar a linha de baixo das listas */
+    text-decoration: none;
+   
+}
+
+body{ /* caracteres do menu  */
+    top: 60px;
+    font-family: Arial;
+    background-color: #d7dddb (216, 140, 235, 0.664) ;
+}
+
+#menu_estacionamento input[type="checkbox"]  /* efeito do menu */
+{
+    display: none;
+}
+
+#menu_estacionamento input[type="checkbox"]:checked ~ nav  /* efeito do menu */
+{
+    transform: translateX(350px);
+}
+
+#menu_estacionamento nav{ /* efeito do menu */
+    background-color: #6acc6d;
+    width: 350px;
+    left: -350px;
+    height: 400px;
+    position: absolute;
+    transition: all 0.5s;  
+    z-index:600;
+}
+
+#menu_estacionamento .menu a{ /* efeito do menu */
+    display: block;
+    padding: 20px 5px;
+    color:white;
+}
+
+#menu_estacionamento .menu a:hover{ /* efeito do menu */
+    background-color: #00A80C;
+    color: black;
+}
+
+#menu_estacionamento label{ /* efeito do menu */
+    padding: 15px;
+    position: absolute;
+    z-index: 999;
+}
+.meio{ /* posicionamento do meio da tela */
+    padding: 5%;
+    
+}
+
+footer{ /* dimensoes do rodape */
+    /*height: 100%;*/
+    background-color: black;
+    padding-top: 8px;
+
+    
+}
+p{ /* estilo do p */
+    color: rgb(109, 106, 106);
+    padding-left:8px;
+    padding-bottom: 5px;  
+    top: 5px;
+    padding-top: 5px;
+}
+
+
+
+ul.lista{ /* Alinhar elementos da lista*/
+    text-align: center;
+}
+.itens a{ /* Estilo de listas*/
+    position: relative;
+    padding-left: 8px;
+    color: white;
+}
+ul li.itens{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.redessociais{
+    text-align: center;
+}
+
+ul.lista2{
+    position: relative;
+    padding-left: 8px;
+    display:inline-block;
+    
+}
+ul li.icones{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    position: 10px;
+}
+
+#menu_estacionamento + .container { align-items: flex-start; padding-top: 30px; }*{ /*deixar as dimensões padrões */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#menu_estacionamento form {
+    z-index:1;
+}
+
+.header-1{ /* estilo do primeiro cabeçario */
+    background-color: black;
+    height: 60px;
+}
+
+#menu_estacionamento .logo{ /* direcionar a logo ao lado das três barras  */
+    padding-left: 60px;
+}
+
+#menu_estacionamento .menu{ /* formatando a lista */
+    top: 60px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+}
+
+#menu_estacionamento a{ /* tirar a linha de baixo das listas */
+    text-decoration: none;
+   
+}
+
+body{ /* caracteres do menu  */
+    top: 60px;
+    font-family: Arial;
+    background-color: #d7dddb (216, 140, 235, 0.664) ;
+}
+
+#menu_estacionamento input[type="checkbox"]  /* efeito do menu */
+{
+    display: none;
+}
+
+#menu_estacionamento input[type="checkbox"]:checked ~ nav  /* efeito do menu */
+{
+    transform: translateX(350px);
+}
+
+#menu_estacionamento nav{ /* efeito do menu */
+    background-color: #6acc6d;
+    width: 350px;
+    left: -350px;
+    height: 400px;
+    position: absolute;
+    transition: all 0.5s;  
+    z-index:600;
+}
+
+#menu_estacionamento .menu a{ /* efeito do menu */
+    display: block;
+    padding: 20px 5px;
+    color:white;
+}
+
+#menu_estacionamento .menu a:hover{ /* efeito do menu */
+    background-color: #00A80C;
+    color: black;
+}
+
+#menu_estacionamento label{ /* efeito do menu */
+    padding: 15px;
+    position: absolute;
+    z-index: 999;
+}
+.meio{ /* posicionamento do meio da tela */
+    padding: 5%;
+    
+}
+
+footer{ /* dimensoes do rodape */
+    /*height: 100%;*/
+    background-color: black;
+    padding-top: 8px;
+
+    
+}
+p{ /* estilo do p */
+    color: rgb(109, 106, 106);
+    padding-left:8px;
+    padding-bottom: 5px;  
+    top: 5px;
+    padding-top: 5px;
+}
+
+
+
+ul.lista{ /* Alinhar elementos da lista*/
+    text-align: center;
+}
+.itens a{ /* Estilo de listas*/
+    position: relative;
+    padding-left: 8px;
+    color: white;
+}
+ul li.itens{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.redessociais{
+    text-align: center;
+}
+
+ul.lista2{
+    position: relative;
+    padding-left: 8px;
+    display:inline-block;
+    
+}
+ul li.icones{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    position: 10px;
+}
+
+#menu_estacionamento + .container { align-items: flex-start; padding-top: 30px; }

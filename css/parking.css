@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family= Dancing familia= Pacifico & display=swap');
+
+
+p{ /* estilo do p */
+    color: white;
+    padding-left:8px;
+}
+ul.lista{ /*editando conteudo do rodape*/
+    text-align: center;
+}
+.itens a{ /*editando conteudo do rodape*/
+    position: relative;
+    padding-left: 8px;
+    color: white;
+   
+
+}
+ul li.itens{ /*editando conteudo do rodape*/
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.redessociais{ /*editando conteudo do rodape*/
+    text-align: center;
+}
+
+ul.lista2{ /*editando conteudo do rodape*/
+    position: relative;
+    padding-left: 8px;
+    display:inline-block;
+    
+}
+ul li.icones{ /*editando conteudo do rodape*/
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;
+    position: 10px;
+}
+
+body{ /* caracteres do menu  */
+    top: 60px;
+    font-family: Arial;
+    background-color: #00A80C ;
+}
+h1{ /*editando o titulo h1*/
+	font-family: 'Pacifico', 'cursive';
+    text-align: justify;
+}
+
+#img{ /*editando a imagem abaixo do cabecario*/
+    aspect-ratio: 1920/350;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 4px 5px #000000;
+}
+#divcenter { /*editando conteudo da pagina*/
+    padding: 30px;
+    text-align: justify;
+}
+
+#valoresul{ /*editando lista de valores*/
+    color: white;
+    padding-left:8px;    
+}
+
+#imgdirigindo{ /*editando imagem que faz parte do conteudo divcenter*/
+    float: left;
+    padding: 8px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 2px 3px green;
+}
+
+h4{ /* estilo do p */
+    color: white;
+    padding-left:8px;
+    text-align: center;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
